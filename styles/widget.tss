@@ -1,0 +1,64 @@
+"#Wrapper": {
+	top: "0dp",
+	left: "0dp",
+	height: "42dp",
+	width: Ti.UI.FILL,
+	backgroundColor: "#000"
+},
+"#Overlay": {
+	top: "0dp",
+	left: "0dp",
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	backgroundImage: WPATH("images/overlay.png")
+},
+"#Title": {
+	font: {
+		fontSize: '16dp',
+		fontWeight: 'bold'
+	},
+	shadowColor: '#777',
+  	shadowOffset: {x:0, y:1},
+  	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+},
+"#left": {
+	top: "0dp",
+	left: "0dp",
+	width: "48dp",
+	height: "42dp",
+	backgroundImage: WPATH("images/overlay_left.png")
+},
+"#leftImage": {
+	top: "9dp",
+	left: "9dp",
+	width: "28dp",
+	height: "28dp"
+},
+"#back": {
+	top: "0dp",
+	left: "0dp",
+	width: "48dp",
+	height: "42dp",
+	backgroundImage: WPATH("images/overlay_left.png")
+},
+"#backImage": {
+	top: "9dp",
+	left: "9dp",
+	width: "28dp",
+	height: "28dp",
+	image: WPATH("images/back.png"),
+	preventDefaultImage: true
+},
+"#right": {
+	top: "0dp",
+	right: "0dp",
+	width: "48dp",
+	height: "42dp",
+	backgroundImage: WPATH("images/overlay_right.png")
+},
+"#rightImage": {
+	top: "9dp",
+	left: "10dp",
+	width: "28dp",
+	height: "28dp"
+}

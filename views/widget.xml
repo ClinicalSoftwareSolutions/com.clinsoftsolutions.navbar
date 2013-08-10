@@ -1,0 +1,25 @@
+<Alloy>
+	<View id="Wrapper">
+		<View id="Overlay" >
+
+			<Label id="Title" visible="false" />
+
+			<View id="back" visible="false">
+				<ImageView id="backImage" />
+			</View>
+
+			<View id="left" visible="false">
+				<ImageView id="leftImage" />
+			</View>
+
+			<View id="right" visible="false">
+				<ImageView id="rightImage" />
+			</View>
+
+			<View id="DetailNav" visible="false">
+				<View id="NavItems" />
+			</View>
+
+		</View>
+	</View>
+</Alloy>
